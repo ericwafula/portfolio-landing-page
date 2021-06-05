@@ -82,7 +82,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-top: 70px;
+    padding-top: 4.375em;
 }
 
 .hero-left h3{
