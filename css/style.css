@@ -19,3 +19,13 @@ body{
 .logo span{
     color: #1304D9;
 }
+
+/* positions the header items */
+.jumbotron{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
