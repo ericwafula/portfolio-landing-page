@@ -66,6 +66,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #1304D9;
+    border: 2px solid #1304D9 !important;
     border-radius: 20px;
+}
+
+/* changes hover state color */
+.header-button > :hover{
+    background-color: #1304D9 !important;
 }
