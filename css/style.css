@@ -316,6 +316,15 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 40px;
+}
+
+.education-inner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
 /* Styles the education heading */
@@ -325,3 +334,16 @@ body{
     font-weight: bold;
 }
 
+/* Styles the schools tabs */
+.school{
+    box-shadow: 0 0 3px #3F3D56;
+    width: 414px;
+    height: 60px;
+    border-radius: var(--primary-radius);
+    font-weight: bold;
+    font-size: var(--paragraph-size);
+    color: #3F3D56;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
