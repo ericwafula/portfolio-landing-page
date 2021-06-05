@@ -2,7 +2,7 @@
 :root{
     --global-padding: 10.625em;
     --section-margin: 6.250em;
-    --paragraph-size: 1.500em;
+    --paragraph-size: 1.250em;
     --heading-size: 3.000em;
     --card-size: 21.250em;
     --card-button-size: 15.625em;
@@ -121,7 +121,7 @@ body{
 
 /* Styles the paragraph */
 .hero-left p{
-    width: 35.000em;
+    width: 30.000em;
     color: #3F3D56;
     line-height: 1.875em;
     font-size: var(--paragraph-size);
@@ -153,3 +153,39 @@ body{
     margin-bottom: var(--section-margin);
 }
 
+/* ########## Projects section ############ */
+
+/* Heading */
+.projects h1{
+    font-size: var(--heading-size);
+    color: #1304D9;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Positions the cards inner sections */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
+    margin-top: var(--section-margin);
+}
+
+/* aligns the cards vertically in each inner section */
+.cards1, .cards2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 85px;
+}
+
+/* Sets the global styles of the cards */
+.cards1 div, .cards2 div{
+    width: var(--card-size);
+    height: var(--card-size);
+    background-color: #1304D9;
+}
