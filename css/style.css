@@ -34,7 +34,7 @@ body{
 /* positions the header items */
 .jumbotron{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-top: 0.625em;
     padding-bottom: 0.625em;
