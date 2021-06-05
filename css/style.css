@@ -117,7 +117,7 @@ body{
     color: #1304D9;
     font-weight: bold;
     font-size: 3.000em;
-    margin-top: 0.938em;
+    margin-top: 15px;
 }
 
 /* Styles the paragraph */
@@ -206,24 +206,60 @@ body{
     box-shadow: -20px 0 100px rgba(19, 4, 217, 0.5);
 }
 
+
+
 /* positions the chef image */
 #chef{
     position: absolute;
     top: -93px;
 }
 
-/* Styles the heading */
-.anitas-kitchen h1{
+/* Styles the cards heading */
+.anitas-kitchen h1, .drury-cafe h1, .favorite-band h1{
     color: white;
     font-size: var(--card-heading-size);
     font-weight: bold;
 }
 
-/* Styles the paragraph */
-.anitas-kitchen p{
+/* Styles the cards paragraph */
+.anitas-kitchen p, .drury-cafe p, .favorite-band p{
     color: white;
     opacity: 80%;
     font-size: var(--paragraph-size);
+}
+
+/* Styles Drury cafe */
+.drury-cafe{
+    background-color: #A0616A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 20px 0 100px rgba(160, 97, 106, 0.8);
+}
+
+/* positions the burger image */
+#burger{
+    position: absolute;
+    top: -68px;
+}
+
+/* Styles Favorite Band */
+.favorite-band{
+    background-color: #6459FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: -20px 0 100px rgba(100,	89,	255, 0.8);
+}
+
+/* positions marshmallow's image */
+#marshmallow{
+    position: absolute;
+    top: -103px;
 }
 
 /* Styles the card buttons */
@@ -235,6 +271,7 @@ body{
     color: #3F3D56;
     font-weight: bold;
     font-size: var(--paragraph-size);
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
