@@ -310,3 +310,18 @@ body{
     margin-top: var(--section-margin);
     margin-bottom: var(--section-margin);
 }
+
+/* ########## Styles the education section ######## */
+.education{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Styles the education heading */
+.education h1{
+    font-size: var(--heading-size);
+    color: #1304D9;
+    font-weight: bold;
+}
+
