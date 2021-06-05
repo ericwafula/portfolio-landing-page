@@ -215,14 +215,14 @@ body{
 }
 
 /* Styles the cards heading */
-.anitas-kitchen h1, .drury-cafe h1, .favorite-band h1{
+.anitas-kitchen h1, .drury-cafe h1, .favorite-band h1, .dairy-business h1{
     color: white;
     font-size: var(--card-heading-size);
     font-weight: bold;
 }
 
 /* Styles the cards paragraph */
-.anitas-kitchen p, .drury-cafe p, .favorite-band p{
+.anitas-kitchen p, .drury-cafe p, .favorite-band p, .dairy-business p{
     color: white;
     opacity: 80%;
     font-size: var(--paragraph-size);
@@ -262,6 +262,23 @@ body{
     top: -103px;
 }
 
+/* Styles Favorite Band */
+.dairy-business{
+    background-color: #473BED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 20px 0 100px rgba(71, 59, 237, 0.8);
+}
+
+/* positions marshmallow's image */
+#farm-girl{
+    position: absolute;
+    top: -107px;
+}
+
 /* Styles the card buttons */
 .cards button{
     background-color: var(--card-button-color);
@@ -284,4 +301,12 @@ body{
     background-color: rgba(253,	194, 204, 0.9);
 }
 
-
+/* Styles the projects section divider */
+.projects-section-divider{
+    background-color: #6459FF;
+    width: 100%;
+    height: var(--divider-height);
+    border-radius: var(--secondary-radius);
+    margin-top: var(--section-margin);
+    margin-bottom: var(--section-margin);
+}
