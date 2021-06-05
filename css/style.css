@@ -14,6 +14,7 @@ body{
 /* Styles the logo text */
 .logo{
     font-size: 2.250em;
+    font-weight: bold;
     color: #3F3D56;
     position: relative;
     top: 7px;
