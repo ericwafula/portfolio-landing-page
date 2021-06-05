@@ -100,6 +100,7 @@ body{
     color: #1304D9;
     font-weight: bold;
     font-size: 3.000em;
+    margin-top: 15px;
 }
 
 /* Styles the paragraph */
@@ -108,5 +109,20 @@ body{
     color: #3F3D56;
     line-height: 30px;
     font-size: 20px;
+    margin-top: 20px;
 }
 
+/* Styles the hero button */
+.hero-button{
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1304D9;
+}
