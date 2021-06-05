@@ -8,6 +8,7 @@
 body{
     padding-left: 10.625em;
     padding-right: 10.625em;
+    position: relative;
 }
 
 /* Styles the logo text */
@@ -20,11 +21,21 @@ body{
     color: #1304D9;
 }
 
+/* Aligns the menu(Including the button) */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.438em;
+}
+
 /* positions the header items */
 .jumbotron{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
 }
 
 /* Styles the menu items */
@@ -37,4 +48,6 @@ body{
     color: #3F3D56;
     font-size: 1.125em;
     font-weight: bold;
+    position: relative;
+    top: 0.625em;
 }
