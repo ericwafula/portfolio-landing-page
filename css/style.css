@@ -11,6 +11,8 @@ body{
     position: relative;
 }
 
+/* ##### HEADER ################################# */
+
 /* Styles the logo text */
 .logo{
     font-size: 2.250em;
@@ -85,9 +87,17 @@ body{
     padding-top: 4.375em;
 }
 
+/* Styles the subheading */
 .hero-left h3{
     color: #3F3D56;
     font-weight: bold;
     font-size: 24px;
     letter-spacing: 5px;
+}
+
+/* Styles the heading */
+.hero-left h1{
+    color: #1304D9;
+    font-weight: bold;
+    font-size: 3.000em;
 }
