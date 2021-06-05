@@ -76,3 +76,18 @@ body{
 }
 
 /* Aligns the hero section items */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 70px;
+}
+
+.hero-left h3{
+    color: #3F3D56;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
