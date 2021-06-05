@@ -5,7 +5,8 @@
     --paragraph-size: 1.250em;
     --heading-size: 3.000em;
     --card-size: 21.250em;
-    --card-button-size: 15.625em;
+    --card-button-width: 250px;
+    --card-button-height: 3.750em;
     --card-button-color: #FDC2CC;
     --card-heading-size: 1.500em;
     --divider-width: 100%;
@@ -187,5 +188,63 @@ body{
 .cards1 div, .cards2 div{
     width: var(--card-size);
     height: var(--card-size);
-    background-color: #1304D9;
+    border-radius: var(--primary-radius);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
+
+/* Styles Anitas Kitchen */
+.anitas-kitchen{
+    background-color: #1304D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: -20px 0 100px rgba(19, 4, 217, 0.5);
+}
+
+/* positions the chef image */
+#chef{
+    position: absolute;
+    top: -93px;
+}
+
+/* Styles the heading */
+.anitas-kitchen h1{
+    color: white;
+    font-size: var(--card-heading-size);
+    font-weight: bold;
+}
+
+/* Styles the paragraph */
+.anitas-kitchen p{
+    color: white;
+    opacity: 80%;
+    font-size: var(--paragraph-size);
+}
+
+/* Styles the card buttons */
+.cards button{
+    background-color: var(--card-button-color);
+    width: var(--card-button-width);
+    height: var(--card-button-height);
+    border-radius: var(--secondary-radius);
+    color: #3F3D56;
+    font-weight: bold;
+    font-size: var(--paragraph-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards button:hover{
+    background-color: var(--card-button-color);
+    color: #3F3D56;
+    background-color: rgba(253,	194, 204, 0.9);
+}
+
+
