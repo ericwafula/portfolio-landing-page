@@ -27,5 +27,14 @@ body{
     align-items: center;
 }
 
-
-
+/* Styles the menu items */
+.menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.625em;
+    list-style: none;
+    color: #3F3D56;
+    font-size: 1.125em;
+    font-weight: bold;
+}
