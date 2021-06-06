@@ -449,6 +449,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 120px;
 }
 
 /* Sets the buttons global variables */
@@ -458,7 +459,28 @@ body{
     border-radius: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    color: white;
+}
+
+/* Styles the buttons global content positioning */
+.technology, .music, .forex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Styles the technology button */
+.technology{
+    background-color: #473BED;
+}
+
+/* Styles the music button */
+.music{
+    background-color: #A0616A;
+}
+
+/* Styles the music button */
+.forex{
+    background-color: #C4C4C4;
+}
