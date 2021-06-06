@@ -427,3 +427,38 @@ body{
     margin-top: var(--section-margin);
     margin-bottom: var(--section-margin);
 }
+
+/* ######## Interests section ######## */
+
+/* Interests heading */
+#my-interests-heading{
+    font-size: var(--heading-size);
+    font-weight: bold;
+    text-align: center;
+    color: #3F3D56;
+}
+
+/* interests inner section */
+.interests{
+    width: 100%;
+    height: 340px;
+    background-color: #3F3D56;
+    border-radius: 40px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Sets the buttons global variables */
+.buttons{
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles the technology button */
