@@ -502,3 +502,55 @@ body{
     align-items: center;
     flex-direction: row;
 }
+
+/* Styles the form */
+.form-group{
+    width: var(--card-size);
+    height: var(--card-size);
+    background-color: #6459FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: var(--primary-radius);
+}
+
+/* Styles the inputs */
+.form-control{
+    width: 16.000em;
+    height: 2.813em;
+    background-color: #6459FF;
+    border: solid #FFB9B9 2px;
+    border-radius: var(--secondary-radius);
+}
+
+/* styles the placeholder */
+::placeholder{
+    color: var(--card-button-color) !important;
+    font-size: 1.125em;
+}
+
+/* Styles the focus */
+
+
+/* increased the height of text area */
+#text-area{
+    height: 5.313em;
+}
+
+/* Styles the submit button */
+#form-button{
+    width: 250px;
+    height: 2.813em;
+    border-radius: var(--secondary-radius);
+    background-color: var(--card-button-color);
+    border: none;
+    color: #3F3D56;
+    font-size: 1.125em;
+    font-weight: bold;
+}
