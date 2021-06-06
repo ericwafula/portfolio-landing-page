@@ -484,3 +484,14 @@ body{
 .forex{
     background-color: #C4C4C4;
 }
+
+/* Styles the get in touch heading */
+#get-in-touch{
+    text-align: center;
+    font-weight: bold;
+    font-size: var(--heading-size);
+    color: #3F3D56;
+    margin-top: 100px;
+    
+}
+
