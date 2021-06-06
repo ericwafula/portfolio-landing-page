@@ -533,18 +533,31 @@ body{
     border-radius: var(--secondary-radius);
 }
 
-/* styles the placeholder */
+/* styles the input placeholder */
 ::placeholder{
     color: var(--card-button-color) !important;
     font-size: 1.125em;
 }
 
-/* Styles the focus */
+/* Styles the input focus */
+input:focus{
+    background-color: #6459FF !important;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5) !important;
+    border: solid var(--card-button-color) 2px !important;
+}
 
 
 /* increased the height of text area */
 #text-area{
     height: 5.313em;
+    resize: none !important;
+}
+
+/* Styles the textarea focus */
+textarea:focus{
+    background-color: #6459FF !important;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5) !important;
+    border: solid var(--card-button-color) 2px !important;
 }
 
 /* Styles the submit button */
