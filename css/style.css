@@ -502,6 +502,7 @@ body{
     align-items: center;
     flex-direction: row;
     margin-top: 1.875em;
+    gap: 40px;
 }
 
 /* Styles the form */
@@ -554,4 +555,17 @@ body{
     color: #3F3D56;
     font-size: 1.125em;
     font-weight: bold;
+}
+
+/* Styles the social icons container */
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border: solid #3F3D56 2px;
+    border-radius: var(--primary-radius);
+    width: 110px;
+    height: 340px;
 }
