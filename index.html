@@ -18,12 +18,12 @@
         <!-- menu -->
         <div class="menu">
             <ul class="menu-items">
-                <li>Projects</li>
-                <li>Education</li>
-                <li>Skills</li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills-tag">Skills</a></li>
             </ul>
 
-            <button type="button" class="btn btn-primary header-button">Contact</button>
+            <button type="button" class="btn btn-primary header-button" onclick="window.location.href='#form'">Contact</button>
         </div>
     </div>
 
@@ -34,7 +34,7 @@
             <h1>A Web Developer</h1>
             <p>I specialize in developing Web apps in addition to developing Progressive Web Apps(PWAs) that can run offline like Native Apps on a number of devices including desktop, android and ios.</p>
 
-            <button type="button" class="btn btn-primary hero-button">My Projects<i class="fa fa-arrow-down"></i></button>
+            <button type="button" class="btn btn-primary hero-button" onclick="window.location.href='#projects'">My Projects<i class="fa fa-arrow-down"></i></button>
         </div>
         <div class="hero-right">
             <img src="./images/Illustration.png" alt="illustration image">
@@ -45,7 +45,7 @@
     <div class="hero-divider"></div>
 
     <!-- My projects -->
-    <div class="projects">
+    <div class="projects" id="projects">
         <h1>My Projects</h1>
     </div>
 
@@ -61,7 +61,7 @@
                 <h1>ANITAS KITCHEN</h1>
                 <p>A website showing the menu items and servings of Anita's kitchen</p>
 
-                <button type="button" class="btn btn-primary card-button">View Project<i class="fa fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-primary card-button" onclick="window.open('https://github.com/ericwafula/anitas-kitchen')">View Project<i class="fa fa-arrow-right"></i></button>
             </div>
 
             <!-- Drury Cafe -->
@@ -73,7 +73,7 @@
                 <h1>DRURY CAFE</h1>
                 <p>A simple website showing the landing page and menu of Drury Cafe</p>
 
-                <button type="button" class="btn btn-primary card-button">View Project<i class="fa fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-primary card-button" onclick="window.open('https://github.com/ericwafula/drury-cafe')">View Project<i class="fa fa-arrow-right"></i></button>
             </div>
         </div>
         <div class="cards2">
@@ -86,7 +86,7 @@
                 <h1>FAVORITE BAND</h1>
                 <p>A website showing the biography of my favorite band with a list of my favorite songs</p>
 
-                <button type="button" class="btn btn-primary card-button">View Project<i class="fa fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-primary card-button" onclick="window.open('https://github.com/ericwafula/my-favorite-band')">View Project<i class="fa fa-arrow-right"></i></button>
             </div>
 
             <!-- Dairy Business -->
@@ -98,7 +98,7 @@
                 <h1>DAIRY BUSINESS</h1>
                 <p>A website that helps keep track of total milk production output in a farm</p>
 
-                <button type="button" class="btn btn-primary card-button">View Project<i class="fa fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-primary card-button" onclick="window.open('https://github.com/ericwafula/dairy-business')">View Project<i class="fa fa-arrow-right"></i></button>
             </div>
             </div>
         </div>
@@ -108,7 +108,7 @@
     <div class="projects-section-divider"></div>
 
     <!-- Education section-->
-    <div class="education">
+    <div class="education" id="education">
         <img src="./images/undraw_education_f8ru 1.png" alt="education">
         <!-- Inner section -->
         <div class="education-inner-section">
@@ -121,7 +121,7 @@
     </div>
 
     <!-- My skills section -->
-    <div class="skills-section">
+    <div class="skills-section" id="skills-tag">
         <!-- My skills button -->
         <div class="my-skills">&lt;My Skills/&gt;</div>
         <!-- Skills inner section -->
@@ -170,7 +170,7 @@
     
     <div class="footer-section">
         <!-- Form -->
-        <form class="form-group">
+        <form class="form-group" id="form">
             <div class="form-row">
                 <!-- First Name -->
                 <div>
