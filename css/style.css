@@ -114,6 +114,15 @@ a:hover{
     flex-wrap: wrap;
     flex-direction: row;
     padding-top: var(--global-padding);
+    position: relative;
+}
+
+/* Styles the about me sub-heading */
+#about-me{
+    color: #3F3D56;
+    opacity: 50%;
+    position: relative;
+    bottom: 20px;
 }
 
 /* Styles the subheading */
